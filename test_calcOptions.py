@@ -12,7 +12,6 @@ class TestCalc:
         assert 69 == Calc.subtract(100, 31)
         assert 1 == Calc.subtract(100, 99)
         assert 21 == Calc.subtract(40, 19)
-        assert 666 == Calc.subtract(333, 2)
 
     def test_multiply(self):
         assert 31 == Calc.multiply(31, 1)
